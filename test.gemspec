@@ -1,21 +1,18 @@
 # -*- encoding: utf-8 -*-
-$LOAD_PATH.push File.expand_path('../lib', __FILE__)
-#require 'metasploit_data_models/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'metasploit_data_models'
-  s.version     = '1.0.0' #MetasploitDataModels::VERSION
-  s.authors     = ['Metasploit Hackers']
-  s.email       = ['msfdev@metasploit.com']
+  s.name        = 'rubygems-4539-testcase'
+  s.version     = '1.0.0'
+  s.authors     = ['test']
+  s.email       = ['test@example.com']
   s.homepage    = ""
-  s.summary     = %q{Database code for MSF and Metasploit Pro}
-  s.description = %q{Implements minimal ActiveRecord models and database helper code used in both the Metasploit Framework (MSF) and Metasploit commercial editions.}
+  s.summary     = %q{rubygems issue 4539 testcase}
 
   s.files         = `git ls-files`.split("\n").reject { |file|
     file =~ /^bin/
   }
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.require_paths = %w{app/models app/validators lib}
+  s.require_paths = ['.']
 
   s.required_ruby_version = '>= 2.4'
 
