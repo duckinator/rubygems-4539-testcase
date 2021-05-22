@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem 'yard-metasploit-erd'
+gem 'metasploit-erd'
+gem 'rails-erd'
+gem 'yard'
+
 gem 'coveralls'
 gem 'rails'
 gem 'simplecov'
