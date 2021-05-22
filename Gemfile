@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
-
 gem 'metasploit-yard'
 gem 'yard-metasploit-erd'
 
