@@ -13,6 +13,5 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.4'
 
   s.add_development_dependency 'metasploit-yard'
-  s.add_development_dependency 'yard-activerecord'
   s.add_development_dependency 'yard-metasploit-erd'
 end
