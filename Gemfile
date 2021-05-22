@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'metasploit-yard'
+gem 'yard-metasploit-erd'
+
 gem 'coveralls', require: false
 gem 'factory_bot'
 gem 'factory_bot_rails'
